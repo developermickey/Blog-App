@@ -1,0 +1,90 @@
+<%- include("./partials/header.ejs") %>
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-[60vh] text-center flex flex-col justify-center"
+        style="background-image: url('https://images.unsplash.com/photo-1674575496466-5119fd691bf4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+        <div class="bg-black h-[60vh] bg-opacity-50 py-10 flex flex-col items-center justify-center">
+            <h2 class="text-4xl font-bold text-white">Welcome to My Blog</h2>
+            <p class="text-gray-200 mt-2">Sharing thoughts, ideas, and inspiration.</p>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="container mx-auto py-12 px-4">
+        <h3 class="text-3xl font-bold text-center mb-8">Featured Posts</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Post 1 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://source.unsplash.com/400x300/?nature" alt="Post Image"
+                    class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h4 class="font-bold text-xl">Post Title 1</h4>
+                    <p class="text-gray-600 mt-2">A short description of the blog post goes here. It's a quick summary
+                        of the content.</p>
+                    <a href="#" class="inline-block mt-4 text-blue-600 hover:underline">Read More</a>
+                </div>
+            </div>
+            <!-- Post 2 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://source.unsplash.com/400x300/?tech" alt="Post Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h4 class="font-bold text-xl">Post Title 2</h4>
+                    <p class="text-gray-600 mt-2">A short description of the blog post goes here. It's a quick summary
+                        of the content.</p>
+                    <a href="#" class="inline-block mt-4 text-blue-600 hover:underline">Read More</a>
+                </div>
+            </div>
+            <!-- Post 3 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://source.unsplash.com/400x300/?travel" alt="Post Image"
+                    class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h4 class="font-bold text-xl">Post Title 3</h4>
+                    <p class="text-gray-600 mt-2">A short description of the blog post goes here. It's a quick summary
+                        of the content.</p>
+                    <a href="#" class="inline-block mt-4 text-blue-600 hover:underline">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Blog Posts -->
+    <section class="container mx-auto py-12 px-4">
+        <h3 class="text-3xl font-bold text-center mb-8">Latest Blog Posts</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Post 1 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://source.unsplash.com/400x300/?coding" alt="Post Image"
+                    class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h4 class="font-bold text-xl">Coding Tips and Tricks</h4>
+                    <p class="text-gray-600 mt-2">Learn the best coding practices and tips to enhance your development
+                        workflow.</p>
+                    <a href="#" class="inline-block mt-4 text-blue-600 hover:underline">Read More</a>
+                </div>
+            </div>
+            <!-- Post 2 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://source.unsplash.com/400x300/?design" alt="Post Image"
+                    class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h4 class="font-bold text-xl">Design Inspirations</h4>
+                    <p class="text-gray-600 mt-2">Explore creative design ideas for your next project, whether it's web
+                        or print.</p>
+                    <a href="#" class="inline-block mt-4 text-blue-600 hover:underline">Read More</a>
+                </div>
+            </div>
+            <!-- Post 3 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://source.unsplash.com/400x300/?business" alt="Post Image"
+                    class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h4 class="font-bold text-xl">Entrepreneurship</h4>
+                    <p class="text-gray-600 mt-2">Discover how to start and grow your own business with practical
+                        insights.</p>
+                    <a href="#" class="inline-block mt-4 text-blue-600 hover:underline">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%- include("./partials/footer.ejs") %>
